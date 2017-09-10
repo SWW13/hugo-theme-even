@@ -5,12 +5,12 @@
 .social-links {
   text-align: center;
 
-  .iconfont {
+  .fa {
     font-size: $social-icon-font-size;
 
-    & + .iconfont {
+    & + .fa {
       margin-left: $social-link-margin-left;
-    } 
+    }
 
     &:hover {
       color: $theme-color;
