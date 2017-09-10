@@ -3,9 +3,9 @@
     {{- if $path }}
       {{- $realName := slicestr $name 2 }}
       {{- if eq $realName "email" }}
-        <a href="mailto:{{ $path }}" class="iconfont icon-{{ $realName }}" title="{{ $realName }}"></a>
+        <a href="mailto:{{ $path }}" class="fa fa-{{ $realName }}" title="{{ $realName }}"></a>
       {{- else }}
-        <a href="{{ $path }}" class="iconfont icon-{{ $realName }}" title="{{ $realName }}"></a>
+        <a href="{{ $path }}" class="fa fa-{{ $realName }}" title="{{ $realName }}"></a>
       {{- end }}
     {{- end }}
   {{- end }}
